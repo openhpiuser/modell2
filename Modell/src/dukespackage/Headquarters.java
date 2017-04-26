@@ -11,6 +11,7 @@ public class Headquarters {
 	public Person getOwner() {	return owner;	}
 	protected void setOwner(Person owner) { this.owner = owner; } //Zugriff geht trotzdem aus Story, da selbes package
 	
+	
 	/*Konstruktor: Die Teile des Headquarters werden hier im Konstruktor
 	 * zusammengebaut. Das Headquarter: Bei einer Aggregation, wuerden alle 
 	 * Werte und Objekte dem Konstruktor uebergeben werden,

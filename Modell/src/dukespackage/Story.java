@@ -11,6 +11,7 @@ public class Story {
 		//das Hauptquartier Eikes wird gebaut:
 		Headquarters headquarters = new Headquarters(eike);
 		
+		
 		//Besitzer ist Eike
 		headquarters.getInfo();
 
