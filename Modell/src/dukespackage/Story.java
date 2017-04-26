@@ -13,7 +13,6 @@ public class Story {
 		
 		//Besitzer ist Eike
 		headquarters.getInfo();
-
 		
 		
 		//Duke versucht sich die Eingangstür zu öffnen, was fehlschlägt

@@ -6,5 +6,5 @@ public class SafeDoor extends SafetyDoor{
 			if(!isOpen){ isOpen = true;}
 		}
 		//additional functionality
-	}
+	} 
 }

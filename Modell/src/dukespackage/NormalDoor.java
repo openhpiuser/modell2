@@ -10,5 +10,5 @@ public class NormalDoor extends Door {
 	}
 	public void close(){
 		if(isOpen){	isOpen = false;	}
-	}
+	} 
 }

@@ -9,6 +9,6 @@ public class Office extends Room  {
 	public Office(double sizeInSquareMeter, Color wallColor, ArrayList<Door> doors) {
 		super(sizeInSquareMeter, wallColor, doors);
 	}
-	
+
 
 }

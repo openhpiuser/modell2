@@ -8,7 +8,7 @@ public abstract class Room {
  * außerdem müssten dann das Attribut roomname und der key in der HashMap immer synchron gehalten werden.
  * 
  */
-	//protected String roomName = "";
+	//protected String roomName = ""; 
 	protected double sizeInSquareMeter = 0;
 	protected Color wallColor = new Color(255,255,255);
 	protected ArrayList<Door> doors = new ArrayList<>();

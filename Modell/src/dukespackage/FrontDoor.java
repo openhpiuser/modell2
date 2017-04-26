@@ -5,8 +5,7 @@ public class FrontDoor extends SafetyDoor {
 	protected static long successfulEntered = 0;
 	final static String lineSeparator = System.getProperty("line.separator");
 	
-	
-	
+		
 	//Konstruktor
 	public FrontDoor(String code){
 		this.code = code;

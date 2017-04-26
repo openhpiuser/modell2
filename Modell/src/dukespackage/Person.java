@@ -6,7 +6,7 @@ public class Person {
     //Konstruktor mit Parametern
     public Person(String firstName, String lastName){
         this.firstName = firstName;
-        this.lastName = lastName;
+        this.lastName = lastName; 
     }
 
 	public String getFirstName() {	return firstName; }
