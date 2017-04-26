@@ -15,6 +15,7 @@ public class Story {
 		headquarters.getInfo();
 
 		
+		
 		//Duke versucht sich die Eingangstür zu öffnen, was fehlschlägt
 		System.out.println("");
 		System.out.println("Duke versucht sich die Eingangstür zu öffnen, was fehlschlägt:");
