@@ -13,7 +13,7 @@ public class Story {
 		Headquarters headquarters = new Headquarters(eike);
 		
 		//Besitzer ist Eike
-		headquarters.getInfo();
+		headquarters.printInfo();
 		
 		
 		//Duke versucht, die Eingangstür zu öffnen, was fehlschlägt
@@ -27,11 +27,11 @@ public class Story {
 		
 		//nachdem die Eingangstür offen ist, kann duke den owner neu setzen:
 		headquarters.setOwner(duke);
-		headquarters.getInfo();
+		headquarters.printInfo();
 		
 		//Duke lässt sich die Rauminfo geben, um das Hauptquartier zu inspizieren:
 		System.out.println(lineSeparator + "Duke lässt sich die Rauminfo geben, um das Hauptquartier zu inspizieren.");		
-		headquarters.getRoomInfo();
+		headquarters.printRoomInfo();
 		
 		System.out.println(lineSeparator + "Duke findet Paco in einem Vogelkäfig im Kerker und befreit ihn aus seinem Gefängnis.");
 		paco.fly();

@@ -74,12 +74,12 @@ public class Headquarters {
 	
 	
 	//das überwachte intelligente Hauptquartier kann eine Auflistung aller Räume zurückgeben
-	public void getInfo(){
+	public void printInfo(){
 		System.out.println("Das Hauptquartier meldet sich:");
 		System.out.println("Besitzer ist: " + this.getOwner().getFirstName() + " " + this.getOwner().getLastName()) ;
 	}
 	
-	public void getRoomInfo(){
+	public void printRoomInfo(){
 		Room room;	//nur eine Referenz auf einen Raum
 		//über die Einträge im HashMap iterieren
 		for (Entry<String, Room> e : rooms.entrySet()){
