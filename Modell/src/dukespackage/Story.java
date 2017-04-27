@@ -4,9 +4,10 @@ public class Story {
 	final static String lineSeparator = System.getProperty("line.separator");
 	public static void main(String[] args) {
 		
-		//Personen erstellen:
+		//Akteure erstellen:
 		Person eike = new Person("Eike", "Vil");
 		Person duke = new Person("Duke", "der Duke");
+		Parrot paco = new Parrot("Paco");
 		
 		//das Hauptquartier Eikes wird gebaut:
 		Headquarters headquarters = new Headquarters(eike);
@@ -15,9 +16,9 @@ public class Story {
 		headquarters.getInfo();
 		
 		
-		//Duke versucht sich die Eingangstür zu öffnen, was fehlschlägt
+		//Duke versucht, die Eingangstür zu öffnen, was fehlschlägt
 		System.out.println("");
-		System.out.println("Duke versucht sich die Eingangstür zu öffnen, was fehlschlägt:");
+		System.out.println("Duke versucht, die Eingangstür zu öffnen, was fehlschlägt:");
 		headquarters.openFrontDoor("42");
 		headquarters.openFrontDoor("Sesam öffne dich");
 
@@ -29,7 +30,11 @@ public class Story {
 		headquarters.getInfo();
 		
 		//Duke lässt sich die Rauminfo geben, um das Hauptquartier zu inspizieren:
+		System.out.println(lineSeparator + "Duke lässt sich die Rauminfo geben, um das Hauptquartier zu inspizieren.");		
 		headquarters.getRoomInfo();
+		
+		System.out.println(lineSeparator + "Duke findet Paco in einem Vogelkäfig im Kerker und befreit ihn aus seinem Gefängnis.");
+		paco.fly();
 		
 	}
 }
