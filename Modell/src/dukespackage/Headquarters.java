@@ -3,6 +3,7 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class Headquarters {
 	private Person owner;
@@ -10,6 +11,7 @@ public class Headquarters {
 	private HashMap<String,Room> rooms = new HashMap<>();
 	public Person getOwner() {	return owner;	}
 	protected void setOwner(Person owner) { this.owner = owner; } //Zugriff geht trotzdem aus Story, da selbes package
+	ArrayList<Sensorable> listOfSensors = new ArrayList<>();
 	
 	/*Konstruktor: Die Teile des Headquarters werden hier im Konstruktor
 	 * zusammengebaut. Das Headquarter: Bei einer Aggregation, wuerden alle 
@@ -22,7 +24,7 @@ public class Headquarters {
 	 */
 	
 	public Headquarters(Person owner) {
-		//super(); wird impliziz durchgeführt
+		//super(); wird implizit durchgeführt
 		System.out.println("Im Konstruktor von Headquarters: Das Hauptquartier wurde gebaut");
 		this.owner = owner;
 		
@@ -52,6 +54,7 @@ public class Headquarters {
 		ArrayList<Interior> bedroomInterior = new ArrayList<>();
 		
 		Teddybear observingTeddy = new Teddybear(owner);
+		listOfSensors.add(observingTeddy);
 		bedroomInterior.add(observingTeddy);
 		
 		ArrayList<Door> officeDoors = new ArrayList<>();
@@ -61,7 +64,7 @@ public class Headquarters {
 		
 		//eine blaue 12 qm große Küche
 		Room kitchen = new Kitchen(12.0, new Color(0,0,255), kitchenDoors);
-		//ein Schlafzimmer
+		//ein Schlafzimmer mit Einrichtungsgegenständen
 		Room bedroom = new Bedroom(14.0, new Color(255, 100, 200), bedroomDoors, bedroomInterior);
 		//ein weißes Büro
 		Room office = new Office(18.0, new Color(255, 255, 255), officeDoors);
@@ -94,8 +97,23 @@ public class Headquarters {
 	}
 	
 	//das überwachte intelligente Hauptquartier kann den Zustand aller Türen zurückgeben
-	//to do
+	public void printDoorInfo(){
+		Set<String> rooms_keyset = rooms.keySet();
+		for(String room : rooms_keyset){
+			for(Door door : rooms.get(room).doors){
+				if(door.isOpen){
+					System.out.println("Door in "+room+" is open." );					
+				} else {
+					System.out.println("Door in "+room+" is closed." );					
+				}
+			}
+		}
+	}
 	
 	//das überwachte intelligente Hauptquartier kann die Daten aller Sensoren zurückgeben
-	//to do 
+	public void printSensorInfo(){
+		for(Sensorable s : listOfSensors){
+			System.out.println(s.getInfo());
+		}
+	}
 }

@@ -27,4 +27,14 @@ public class Teddybear extends Interior implements Sensorable{
 		
 	}
 
+	@Override
+	public String getInfo() {
+		if(movementSensor.isActive()){
+			return "is active";
+		} else {
+			return "is not active";
+		}
+		
+	}
+
 }
