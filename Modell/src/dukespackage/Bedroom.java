@@ -6,4 +6,8 @@ public class Bedroom extends Room {
 		super(sizeInSquareMeter, wallColor, doors);
 	}
 	
+	public Bedroom(double sizeInSquareMeter, Color wallColor, ArrayList<Door> doors, ArrayList<Interior> interior) {
+		super(sizeInSquareMeter, wallColor, doors);
+	}
+	
 }

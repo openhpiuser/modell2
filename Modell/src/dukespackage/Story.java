@@ -7,7 +7,7 @@ public class Story {
 		//Akteure erstellen:
 		Person eike = new Person("Eike", "Vil");
 		Person duke = new Person("Duke", "der Duke");
-		Parrot paco = new Parrot("Paco");
+		Parrot paco = new Parrot("Paco", "");
 		
 		//das Hauptquartier Eikes wird gebaut:
 		Headquarters headquarters = new Headquarters(eike);

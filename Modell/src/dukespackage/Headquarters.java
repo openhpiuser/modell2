@@ -43,21 +43,26 @@ public class Headquarters {
 		normalDoors[2] = normalWoodDoor_03;
 		normalDoors[3] = normalWoodDoor_04;
 		
+		
 		ArrayList<Door> kitchenDoors = new ArrayList<>();
 		kitchenDoors.add(normalDoors[0]);
 		
 		ArrayList<Door> bedroomDoors = new ArrayList<>();
 		bedroomDoors.add(normalDoors[1]);
+		ArrayList<Interior> bedroomInterior = new ArrayList<>();
+		
+		Teddybear observingTeddy = new Teddybear(owner);
+		bedroomInterior.add(observingTeddy);
 		
 		ArrayList<Door> officeDoors = new ArrayList<>();
 		officeDoors.add(normalDoors[2]);
-		officeDoors.add(normalDoors[3]);		
+		officeDoors.add(normalDoors[3]);
 		
 		
 		//eine blaue 12 qm große Küche
 		Room kitchen = new Kitchen(12.0, new Color(0,0,255), kitchenDoors);
 		//ein Schlafzimmer
-		Room bedroom = new Bedroom(14.0, new Color(255, 100, 200), bedroomDoors);
+		Room bedroom = new Bedroom(14.0, new Color(255, 100, 200), bedroomDoors, bedroomInterior);
 		//ein weißes Büro
 		Room office = new Office(18.0, new Color(255, 255, 255), officeDoors);
 		

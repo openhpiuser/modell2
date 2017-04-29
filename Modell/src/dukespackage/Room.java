@@ -13,6 +13,7 @@ public abstract class Room {
 	protected Color wallColor = new Color(255,255,255);
 	protected ArrayList<Door> doors = new ArrayList<>();
 	//Ein Raum soll mindestens 1 Tür haben, der Typ wird allgemein gehalten.
+	protected ArrayList<Interior> interior = new ArrayList<>();
 	
 	//Konstruktor
 	public Room(double sizeInSquareMeter, Color wallColor, ArrayList<Door> doors ){
@@ -21,6 +22,16 @@ public abstract class Room {
 		this.doors = doors;
 		//noch zu tun, hier sollte  wirklich kopiert werden,
 		//sonst sind die Türen weg, wenn die Objekte gelöscht werden
+	}
+	
+	public Room(double sizeInSquareMeter, Color wallColor, ArrayList<Door> doors, ArrayList<Interior> interior ){
+		this.sizeInSquareMeter = sizeInSquareMeter;
+		this.wallColor = wallColor;
+		this.doors = doors;
+		//noch zu tun, hier sollte  wirklich kopiert werden,
+		//sonst sind die Türen weg, wenn die Objekte gelöscht werden
+		
+		this.interior = interior;
 	}
 	
 	@Override
