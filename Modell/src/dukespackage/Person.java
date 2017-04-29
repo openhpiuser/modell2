@@ -1,5 +1,10 @@
 package dukespackage;
+
+import java.util.ArrayList;
+
 public class Person {
+	ArrayList<Robot> robots = new ArrayList<>();
+	ArrayList<Parrot> parrots = new ArrayList<>();
     private String firstName = "";
     private String lastName = "";
 

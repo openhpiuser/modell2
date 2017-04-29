@@ -1,8 +1,8 @@
 package dukespackage;
 
-public class Robot extends Person {
+public class Robot {
 
 	Robot(String firstName, String lastName){
-		super(firstName, lastName);
+		
 	}
 }
