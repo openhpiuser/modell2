@@ -6,7 +6,7 @@ public class DropOffGas {
 	public boolean isReleased() {
 		return released;
 	}
-
+	
 	public void setReleased(boolean released) {
 		this.released = released;
 	}
