@@ -79,6 +79,11 @@ public class Headquarters {
 		frontdoor.open(code);
 	}
 	
+	//private HashMap<String,Room> rooms = new HashMap<>();
+	public HashMap<String, Room> getRooms(){
+		return this.rooms;
+	}
+	
 	
 	
 	//das überwachte intelligente Hauptquartier kann eine Auflistung aller Räume zurückgeben

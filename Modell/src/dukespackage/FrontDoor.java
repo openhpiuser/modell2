@@ -16,7 +16,7 @@ public class FrontDoor extends SafetyDoor {
 		if(code.equals(this.code)){
 			if(!isOpen){
 				isOpen = true;
-				System.out.println("Eingangstür offen");
+				System.out.println("Methode open der Klasse FrontDoor meldet: Eingangstür offen");
 				isOpen = false; //Tür wieder automatisch schließen
 				FrontDoor.successfulEntered++;
 			}
