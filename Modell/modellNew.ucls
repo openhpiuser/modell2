@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="dukespackage.SafetyDoor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/SafetyDoor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1051" y="1118"/>    
+    <position height="-1" width="-1" x="1052" y="1152"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,23 +75,14 @@
   </class>  
   <class id="9" language="java" name="dukespackage.FrontDoor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/FrontDoor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1436" y="1102"/>    
+    <position height="-1" width="-1" x="1527" y="1193"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="dukespackage.SafeDoor" project="modell2" 
-    file="/modell2/Modell/src/dukespackage/SafeDoor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1238" y="1001"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="11" language="java" name="dukespackage.Headquarters" project="modell2" 
+  <class id="10" language="java" name="dukespackage.Headquarters" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Headquarters.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="267" width="237" x="740" y="143"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -100,7 +91,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="dukespackage.Person" project="modell2" 
+  <class id="11" language="java" name="dukespackage.Person" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Person.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="512" y="734"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -109,7 +100,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="dukespackage.Robot" project="modell2" 
+  <class id="12" language="java" name="dukespackage.Robot" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Robot.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="375" y="554"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -118,7 +109,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="dukespackage.Parrot" project="modell2" 
+  <class id="13" language="java" name="dukespackage.Parrot" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Parrot.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="485" y="428"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -127,7 +118,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="15" language="java" name="dukespackage.Flyable" project="modell2" 
+  <interface id="14" language="java" name="dukespackage.Flyable" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Flyable.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="645" y="347"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -136,7 +127,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="16" language="java" name="dukespackage.Story" project="modell2" 
+  <class id="15" language="java" name="dukespackage.Story" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Story.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="579" y="153"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -145,7 +136,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="dukespackage.Teddybear" project="modell2" 
+  <class id="16" language="java" name="dukespackage.Teddybear" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Teddybear.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="526" y="1099"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -154,7 +145,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="18" language="java" name="dukespackage.SeatTrap" project="modell2" 
+  <class id="17" language="java" name="dukespackage.SeatTrap" project="modell2" 
     file="/modell2/Modell/src/dukespackage/SeatTrap.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="295" y="1117"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -163,7 +154,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="19" language="java" name="dukespackage.Sensor" project="modell2" 
+  <class id="18" language="java" name="dukespackage.Sensor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Sensor.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="613" y="1452"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -172,7 +163,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="20" language="java" name="dukespackage.MovementSensor" project="modell2" 
+  <class id="19" language="java" name="dukespackage.MovementSensor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/MovementSensor.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="529" y="1284"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -181,7 +172,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="21" language="java" name="dukespackage.FingerprintSensor" project="modell2" 
+  <class id="20" language="java" name="dukespackage.FingerprintSensor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/FingerprintSensor.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="848" y="1417"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -190,7 +181,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="22" language="java" name="dukespackage.PressureSensor" project="modell2" 
+  <class id="21" language="java" name="dukespackage.PressureSensor" project="modell2" 
     file="/modell2/Modell/src/dukespackage/PressureSensor.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="356" y="1449"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -199,7 +190,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="23" language="java" name="dukespackage.Trap" project="modell2" 
+  <class id="22" language="java" name="dukespackage.Trap" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Trap.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="110" y="1230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -208,7 +199,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="24" language="java" name="dukespackage.DropOffGas" project="modell2" 
+  <class id="23" language="java" name="dukespackage.DropOffGas" project="modell2" 
     file="/modell2/Modell/src/dukespackage/DropOffGas.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="91" y="975"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -217,7 +208,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="25" language="java" name="dukespackage.Sensorable" project="modell2" 
+  <interface id="24" language="java" name="dukespackage.Sensorable" project="modell2" 
     file="/modell2/Modell/src/dukespackage/Sensorable.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="277" y="803"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -226,166 +217,198 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <association id="26">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="27" name="rooms"/>      
-      <multiplicity id="28" minimum="0" maximum="2147483647"/>    
+  <class id="25" language="java" name="dukespackage.SafeRoom" project="modell2" 
+    file="/modell2/Modell/src/dukespackage/SafeRoom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="319" x="1076" y="399"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="dukespackage.SafeDoor" project="modell2" 
+    file="/modell2/Modell/src/dukespackage/SafeDoor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1436" y="992"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="27">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="28" name="rooms"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="29">    
+  <generalization id="30">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="30">    
-    <bendpoint x="1437" y="277"/>    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="31" name="frontdoor"/>      
-      <multiplicity id="32" minimum="0" maximum="1"/>    
+  <association id="31">    
+    <bendpoint x="1521" y="279"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="32" name="frontdoor"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="33">    
-    <end type="SOURCE" refId="22"/>    
-    <end type="TARGET" refId="19"/>  
-  </generalization>  
   <generalization id="34">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="35">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <realization id="35">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="25"/>  
-  </realization>  
   <generalization id="36">    
-    <end type="SOURCE" refId="18"/>    
-    <end type="TARGET" refId="23"/>  
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="8"/>  
   </generalization>  
-  <generalization id="37">    
+  <realization id="37">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="39">    
     <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="8"/>  
   </generalization>  
-  <generalization id="38">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <generalization id="39">    
+  <generalization id="40">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
-  <association id="40">    
+  <association id="41">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="42" name="owner"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="45" name="movementSensor"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="48">    
     <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="41" name="owner"/>      
-      <multiplicity id="42" minimum="0" maximum="1"/>    
+      <attribute id="49" name="robots"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="43">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="44" name="movementSensor"/>      
-      <multiplicity id="45" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="20" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="46">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <association id="47">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="48" name="robots"/>      
-      <multiplicity id="49" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="13" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="50">    
-    <end type="SOURCE" refId="21"/>    
-    <end type="TARGET" refId="19"/>  
-  </generalization>  
   <generalization id="51">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="53">    
     <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
-  <association id="52">    
+  <association id="54">    
     <bendpoint x="277" y="276"/>    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="53" name="listOfSensors"/>      
-      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="25" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="55">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="56">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="57" name="doors">        
-        <position height="18" width="38" x="841" y="850"/>      
-      </attribute>      
-      <multiplicity id="58" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="59">    
-    <end type="SOURCE" refId="18" navigable="false">      
-      <attribute id="60" name="pressureSensor"/>      
-      <multiplicity id="61" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="22" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="62">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="15"/>  
-  </realization>  
-  <association id="63">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="64" name="parrots"/>      
-      <multiplicity id="65" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="14" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="66">    
-    <end type="SOURCE" refId="18"/>    
-    <end type="TARGET" refId="25"/>  
-  </realization>  
-  <generalization id="67">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="19"/>  
-  </generalization>  
-  <association id="68">    
-    <end type="SOURCE" refId="18" navigable="false">      
-      <attribute id="69" name="dropOffGas">        
-        <position height="18" width="68" x="144" y="1063"/>      
-      </attribute>      
-      <multiplicity id="70" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="55" name="listOfSensors"/>      
+      <multiplicity id="56" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="24" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="71">    
+  <association id="57">    
+    <bendpoint x="1084" y="321"/>    
+    <bendpoint x="1432" y="319"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="58" name="safedoor"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="61">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="72" name="interior"/>      
-      <multiplicity id="73" minimum="0" maximum="2147483647"/>    
+      <attribute id="62" name="doors">        
+        <position height="18" width="38" x="841" y="850"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="65" name="pressureSensor"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="67">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="68">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="69" name="parrots"/>      
+      <multiplicity id="70" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="71">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="73">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="74" name="dropOffGas">        
+        <position height="18" width="68" x="144" y="1063"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="77" name="interior"/>      
+      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="74">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="75" name="owner"/>      
-      <multiplicity id="76" minimum="0" maximum="1"/>    
+  <association id="79">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="80" name="owner"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
+    <end type="TARGET" refId="11" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
