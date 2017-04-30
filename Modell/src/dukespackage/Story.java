@@ -45,8 +45,11 @@ public class Story {
 		//DoorInfo
 		System.out.println(lineSeparator + "Auch den Zustand der Türen kann sich Duke ausgeben lassen");
 		headquarters.printDoorInfo();
-		
+	
 		headquarters.printSensorInfo();
+		
+		System.out.println("Duke öffnet den Safe im Saferaum und findet den Papagei");
+		headquarters.openSafeDoor("evilEike");
 		
 		System.out.println(lineSeparator + "Duke findet Paco in einem Vogelkäfig im Kerker und befreit ihn aus seinem Gefängnis.");
 		paco.fly();
