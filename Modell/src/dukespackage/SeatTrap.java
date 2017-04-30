@@ -1,34 +1,25 @@
 package dukespackage;
-
 public class SeatTrap extends Trap implements Sensorable {
 	PressureSensor pressureSensor = new PressureSensor();
 	DropOffGas dropOffGas = new DropOffGas();
 	private int pressure = 0;
-	
 	public int getPressure() {
 		return pressure;
 	}
-
-
 	public void setPressure(int pressure) {
 		this.pressure = pressure;
 	}
-
-
 	public SeatTrap(){
 		setSensor(true);
 		pressureSensor.setActive(true);
 		pressureSensor.setPressureSensitivity(PressureSensor.DEFAULT_SENSITIVITY);
 		setTrapped(false);
 	}
-	
-	
 	@Override
 	public void activate(boolean active) {
 		pressureSensor.setActive(active);
 		
 	}
-
 	@Override
 	public void react() {
 		if(pressureSensor.isActive() && pressure > pressureSensor.getPressureSensitivity()){
@@ -39,8 +30,6 @@ public class SeatTrap extends Trap implements Sensorable {
 			System.out.println("Trapsensor not active!");
 		}	
 	}
-
-
 	@Override
 	public void reset() {
 		setSensor(true);
@@ -51,10 +40,7 @@ public class SeatTrap extends Trap implements Sensorable {
 		if(dropOffGas.isReleased()){
 			dropOffGas.fillGas();
 		}
-		
 	}
-
-
 	@Override
 	public String getInfo() {
 		if(pressureSensor.isActive()){
@@ -62,5 +48,4 @@ public class SeatTrap extends Trap implements Sensorable {
 		}
 		return "SeatTraps pressureSensor is not active";
 	}
-
 }

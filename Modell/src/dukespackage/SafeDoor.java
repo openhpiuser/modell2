@@ -1,10 +1,8 @@
 package dukespackage;
 public class SafeDoor extends SafetyDoor{
-	
 	protected static long attemptsToEnter = 0;
 	protected static long successfulEntered = 0;
 	final static String lineSeparator = System.getProperty("line.separator");
-	
 		
 	//Konstruktor
 	public SafeDoor(String code){

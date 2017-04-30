@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
-
 public class Headquarters {
 	private Person owner;
 	private FrontDoor frontdoor;
 	private SafeDoor safedoor;
 	private HashMap<String,Room> rooms = new HashMap<>();
 	public Person getOwner() {	return owner;	}
-	protected void setOwner(Person owner) { this.owner = owner; } //Zugriff geht trotzdem aus Story, da selbes package
+	protected void setOwner(Person owner) { this.owner = owner; } 
+	//Zugriff geht trotzdem aus Story, da selbes package
 	ArrayList<Sensorable> listOfSensors = new ArrayList<>();
 	
 	/*Konstruktor: Die Teile des Headquarters werden hier im Konstruktor
@@ -44,13 +44,11 @@ public class Headquarters {
 		NormalDoor normalWoodDoor_03 = new NormalDoor("wood");
 		NormalDoor normalWoodDoor_04 = new NormalDoor("wood");
 		NormalDoor normalWoodDoor_05 = new NormalDoor("wood");
-		
 		normalDoors[0] = normalWoodDoor_01;
 		normalDoors[1] = normalWoodDoor_02;
 		normalDoors[2] = normalWoodDoor_03;
 		normalDoors[3] = normalWoodDoor_04;
 		normalDoors[4] = normalWoodDoor_05;
-		
 		
 		ArrayList<Door> kitchenDoors = new ArrayList<>();
 		kitchenDoors.add(normalDoors[0]);
@@ -73,7 +71,6 @@ public class Headquarters {
 		safeRoomDoors.add(normalDoors[4]);
 		safeRoomDoors.add(safedoor);
 		
-		
 		//eine blaue 12 qm große Küche
 		Room kitchen = new Kitchen(12.0, new Color(0,0,255), kitchenDoors);
 		//ein Schlafzimmer mit Einrichtungsgegenständen
@@ -82,35 +79,28 @@ public class Headquarters {
 		Room office = new Office(18.0, new Color(255, 255, 255), officeDoors);
 		//ein SafeRoom
 		Room saferoom = new SafeRoom(10.0, new Color(100, 20, 20), safeRoomDoors);
-		
 		//die Räume der hashMap rooms hinzufügen:
 		rooms.put("Kitchen", kitchen);
 		rooms.put("Bedroom", bedroom);
 		rooms.put("Office", office);
 		rooms.put("Saferoom", saferoom);
 	}
-	
 	public void openFrontDoor(String code){
 		frontdoor.open(code);
 	}
-	
 	public void openSafeDoor(String code){
 		this.safedoor.open(code);
 	}
-	
 	//private HashMap<String,Room> rooms = new HashMap<>();
 	public HashMap<String, Room> getRooms(){
 		return this.rooms;
 	}
-	
-	
-	
 	//das überwachte intelligente Hauptquartier kann eine Auflistung aller Räume zurückgeben
 	public void printInfo(){
 		System.out.println("Das Hauptquartier meldet sich:");
-		System.out.println("Besitzer ist: " + this.getOwner().getFirstName() + " " + this.getOwner().getLastName()) ;
+		System.out.println("Besitzer ist: " + this.getOwner().getFirstName() + " " + 
+		this.getOwner().getLastName()) ;
 	}
-	
 	public void printRoomInfo(){
 		Room room;	//nur eine Referenz auf einen Raum
 		//über die Einträge im HashMap iterieren
@@ -119,7 +109,6 @@ public class Headquarters {
 			System.out.println("Raum: " + e.getKey() + " " + room.toString());
 		}		
 	}
-	
 	//das überwachte intelligente Hauptquartier kann den Zustand aller Türen zurückgeben
 	public void printDoorInfo(){
 		Set<String> rooms_keyset = rooms.keySet();
@@ -133,7 +122,6 @@ public class Headquarters {
 			}
 		}
 	}
-	
 	//das überwachte intelligente Hauptquartier kann die Daten aller Sensoren zurückgeben
 	public void printSensorInfo(){
 		for(Sensorable s : listOfSensors){

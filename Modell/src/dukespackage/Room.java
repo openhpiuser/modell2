@@ -4,8 +4,10 @@ import java.util.ArrayList;
 public abstract class Room {
 /*
  * die Bezeichnung des Raumes wird beim Bau des HeadQuaters in der HashMap vergeben, 
- * die Funktion des Raums kann sich auch aendern, daher wird hier kein Attribut roomName benutzt
- * außerdem müssten dann das Attribut roomname und der key in der HashMap immer synchron gehalten werden.
+ * die Funktion des Raums kann sich auch aendern, daher wird hier kein Attribut 
+ * roomName benutzt
+ * außerdem müssten dann das Attribut roomname und der key in der HashMap immer synchron 
+ * gehalten werden.
  * 
  */
 	//protected String roomName = ""; 
