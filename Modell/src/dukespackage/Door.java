@@ -7,5 +7,5 @@ public abstract class Door  {
 	 * die Methode open() wurde hier nicht angegeben,
 	 * da die abgeleiteten Sicherheitstüren nicht ohne Passwort zu öffnen sein sollen 
 	 */
-	
+	 
 }
