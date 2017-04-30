@@ -58,9 +58,9 @@ public class SeatTrap extends Trap implements Sensorable {
 	@Override
 	public String getInfo() {
 		if(pressureSensor.isActive()){
-			return "is active";
+			return "SeatTraps pressureSensor is active";
 		}
-		return "is not active";
+		return "SeatTraps pressureSensor is not active";
 	}
 
 }

@@ -54,7 +54,9 @@ public class Headquarters {
 		ArrayList<Interior> bedroomInterior = new ArrayList<>();
 		
 		Teddybear observingTeddy = new Teddybear(owner);
+		SeatTrap seatTrap = new SeatTrap();
 		listOfSensors.add(observingTeddy);
+		listOfSensors.add(seatTrap);
 		bedroomInterior.add(observingTeddy);
 		
 		ArrayList<Door> officeDoors = new ArrayList<>();
@@ -118,6 +120,7 @@ public class Headquarters {
 	//das überwachte intelligente Hauptquartier kann die Daten aller Sensoren zurückgeben
 	public void printSensorInfo(){
 		for(Sensorable s : listOfSensors){
+			//System.out.println("Size ist: " + listOfSensors.size());
 			System.out.println(s.getInfo());
 		}
 	}
